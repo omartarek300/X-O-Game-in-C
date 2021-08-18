@@ -18,7 +18,7 @@ int main()
         system("cls"); // clear console
         table (); // draw table with updated values
         edit_table(); // update table values
-        if(places == 0)
+        if(places == 0) // if number of available places is 0 and no one wins then it's equality condition
         {
             break;
         }
